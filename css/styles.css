@@ -268,7 +268,7 @@ main {
 .logo-footer {
     padding-top: 100px;
 }
-.logo-footer {
+footer a {
     display: inline-block;
     margin-bottom: 16px;
 }
