@@ -6,17 +6,21 @@
     <title>Web Studio</title>
     <link href="css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="modern-normalize"
+      href="https://cdnjs.com/libraries/modern-normalize"
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="page-container">
       <header>
-        <div class="main-container">
+        <div class="header-container">
           <nav>
             <a href="/index.html" class="logo"
               >Web<span class="logo-span">Studio</span></a
@@ -44,10 +48,12 @@
         </div>
       </header>
       <main>
-        <section class="main-page">
-          <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="main-button">Order Service</button>
-        </section>
+        <div class="main-container">
+          <section class="main-page">
+            <h1 class="main-title">Effective Solutions for Your Business</h1>
+            <button type="button" class="main-button">Order Service</button>
+          </section>
+        </div>
         <section class="block-service">
           <h2 class="title-description"></h2>
           <ul>
@@ -151,7 +157,7 @@
         </section>
       </main>
       <footer class="footer-block">
-        <div class="container">
+        <div class="footer-container">
           <a href="./index.html" class="logo-footer">
             Web<span class="logo-span-footer">Studio</span></a
           >

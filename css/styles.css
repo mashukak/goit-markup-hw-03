@@ -8,16 +8,23 @@ body {
     min-height: 100vh;
     
 }
-
+img {
+    display: block;
+}
 main {
     flex-grow: 0;
 }
+header{
+    border-bottom: 1px solid #e7e9fc;
+}
 
-.main-container {
-    display: flex;
+.header-container {
     align-items: center;
     justify-content: space-between;
     align-content:stretch;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo ,
@@ -92,6 +99,7 @@ main {
 .main-page {
     background-color: #2e2f42;
     text-align: center;
+    padding: 188px 0 188px;
 }
 
 .main-title {
@@ -102,6 +110,7 @@ main {
     text-align: center;
     background-color: #2e2f42;
     padding-top: 188px;
+    max-width: 496px;
 }
 
 .main-button {
@@ -113,11 +122,11 @@ main {
     cursor: pointer;
     text-align: center;
     margin-bottom: 188px;
-    padding-top: 16px; 
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+    height: 56px;
+    min-width: 169px;
     font-weight: 500;
+    display: block;
+    border-radius: 4px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -237,7 +246,7 @@ main {
     gap: 24px;
 }
 
-.container {
+.footer-container {
     background-color: #2e2f42;
     padding-right: 156px;
     display: flex;
