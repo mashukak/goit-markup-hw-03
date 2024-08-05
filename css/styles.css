@@ -28,8 +28,12 @@ header {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    padding: 0 15px 0 15px;
 }
-
+.logo {
+    margin-right: 76px;
+}
 .logo,
 .logo-footer {
     font-weight: 700;
@@ -40,6 +44,7 @@ header {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+    
 }
 
 .address-class {
@@ -60,6 +65,7 @@ header {
     list-style: none;
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .nav-list li a {
@@ -69,6 +75,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
 }
 
 .contacts-button {
