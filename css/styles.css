@@ -3,9 +3,11 @@ body {
     color: #434455;
     font-family: "Roboto", sans-serif;
 }
+
 img {
     display: block;
 }
+
 .page-box {
     min-height: 100vh;
 
