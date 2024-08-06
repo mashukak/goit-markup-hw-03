@@ -314,3 +314,6 @@ footer a {
     display: inline-block;
     margin-bottom: 16px;
 }
+.footer-block {
+    padding: 100px 0 100px ;
+}
