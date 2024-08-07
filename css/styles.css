@@ -115,6 +115,8 @@ main {
 
 .contact-list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .contact-list li a {
