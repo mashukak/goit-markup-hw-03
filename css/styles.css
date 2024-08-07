@@ -255,7 +255,7 @@ main {
 
 .foto-block {
     background-color: WHITE;
-    flex-basis: calc((100% - 72px) / 4));
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-title,
