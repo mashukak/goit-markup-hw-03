@@ -221,7 +221,8 @@ main {
 
 .block-team {
     background-color: #F4F4FD;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .block-team-title {
