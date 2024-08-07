@@ -75,7 +75,8 @@ main {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-list li a {
