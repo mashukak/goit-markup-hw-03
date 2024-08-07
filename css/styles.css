@@ -31,7 +31,7 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    padding: 0 15px 0 15px;
+    padding: 0, 15px, 0, 15px;
 }
 .nav-menu {
     display: flex;
@@ -74,7 +74,7 @@ main {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0 24px;
+    padding: 24px, 0, 24px;
 }
 
 .nav-list li a {
