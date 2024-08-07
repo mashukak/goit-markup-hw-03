@@ -22,7 +22,7 @@ main {
     display: flex;
 }
 
-.header-box {
+.container {
     align-items: center;
     justify-content: space-between;
     align-content: stretch;
