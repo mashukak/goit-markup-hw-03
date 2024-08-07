@@ -319,6 +319,9 @@ main {
     letter-spacing: 0.02em;
     margin-bottom: 120px;
 }
+.container-section-four {
+    row-gap: 48px;
+}
 
 .portfolio-list {
     justify-content: center;
