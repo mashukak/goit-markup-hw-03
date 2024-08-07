@@ -169,8 +169,6 @@ main {
     list-style: none;
     display: flex;
     gap: 8px;
-    padding-left: 156px;
-    padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
