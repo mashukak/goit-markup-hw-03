@@ -96,6 +96,8 @@ main {
 .nav-button,
 .contacts-button {
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-button:hover,
