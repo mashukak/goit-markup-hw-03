@@ -168,7 +168,7 @@ main {
     padding-bottom: 120px;
 }
 .list-strategy {
-    justify-content: space-between;
+    
     list-style: none;
     display: flex;
     gap: 24px;
