@@ -370,6 +370,7 @@ main {
 
 .logo-footer {
     padding-top: 100px;
+    display: inline-block;
 }
 
 footer a {
