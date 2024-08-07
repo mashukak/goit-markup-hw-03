@@ -171,7 +171,7 @@ main {
     justify-content: space-between;
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 24px;
     
 }
 .visually-hidden .title-description {
@@ -185,11 +185,15 @@ main {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.li-list-strategy {
+    width: calc((100% - 72px) / 4);
+}
 
 .title-strategy {
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .text-strategy {
