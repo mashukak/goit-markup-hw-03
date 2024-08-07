@@ -255,6 +255,7 @@ main {
 
 .foto-block {
     background-color: WHITE;
+    flex-basis: calc((100% - 72px) / 4));
 }
 
 .team-title,
@@ -294,7 +295,7 @@ main {
     padding-bottom: 120px;
 }
 .li-portfolio-list {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-right-radius: 4px;
