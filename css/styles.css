@@ -228,6 +228,7 @@ main {
 .block-team-title {
     padding-top: 120px;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .block-team-title,
@@ -286,6 +287,10 @@ main {
     text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
+}
+.block-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .description-text {
