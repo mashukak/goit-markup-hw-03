@@ -163,14 +163,16 @@ main {
     border-radius: 4px;
     border: none;
 }
-
+.block-service {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .block-service ul {
     justify-content: space-between;
     list-style: none;
     display: flex;
     gap: 8px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 }
 
 .title-description {
