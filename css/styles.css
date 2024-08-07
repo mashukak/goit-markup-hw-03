@@ -7,7 +7,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.page-box {
+.container {
     min-height: 100vh;
 
 }
@@ -22,7 +22,7 @@ main {
     display: flex;
 }
 
-.container {
+.container-two {
     align-items: center;
     justify-content: space-between;
     align-content: stretch;
