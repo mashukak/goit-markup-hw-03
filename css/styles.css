@@ -167,14 +167,14 @@ main {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.block-service ul {
+.list-strategy {
     justify-content: space-between;
     list-style: none;
     display: flex;
     gap: 8px;
     
 }
-.visually-hidden {
+.visually-hidden .title-description {
     overflow: hidden;
 }
 
