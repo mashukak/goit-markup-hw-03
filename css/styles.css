@@ -164,11 +164,6 @@ main {
     border: none;
 }
 
-.main-button:hover,
-.main-button:focus {
-    background-color: #404bbf;
-}
-
 .block-service ul {
     justify-content: space-between;
     list-style: none;
