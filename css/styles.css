@@ -290,6 +290,7 @@ main {
     color: rgba(67, 68, 85, 1);
     background-color: #FFFFFF;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 .title-portfolio {
