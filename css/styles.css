@@ -241,6 +241,13 @@ main {
     font-weight: 500;
     line-height: 1.11;
 }
+.img {
+    flex-basis: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
 
 .list {
     justify-content: center;
