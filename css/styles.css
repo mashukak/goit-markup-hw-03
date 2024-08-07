@@ -2,6 +2,12 @@ img, .img{
     display: block;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFFFFF;
     color: #434455;
