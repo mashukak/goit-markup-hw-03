@@ -26,9 +26,9 @@ main {
     display: flex;
     padding: 0 15px;
     margin: 0 auto;
-    width: 1158px;
+    
 }
-.container .header-container {
+.header-container {
     align-items: center;
     justify-content: space-between;
     align-content: stretch;
