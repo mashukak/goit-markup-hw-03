@@ -1,4 +1,4 @@
-img, .img{
+img{
     display: block;
 }
 
@@ -23,9 +23,9 @@ main {
     display: flex;
 }
 .container {
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
+    max-width: 1158px;
     
 }
 .header-container {
@@ -39,7 +39,10 @@ main {
     padding: 0 15px;
     display: flex;
 }
-
+ul {
+    margin: 0;
+    padding: 0;
+}
 .nav-menu {
     display: flex;
     align-items: center;
@@ -149,7 +152,6 @@ main {
     color: #ffffff;
     text-align: center;
     background-color: #2e2f42;
-    padding-top: 188px;
     margin-right: auto;
     margin-left: auto;
     max-width: 496px;
@@ -218,11 +220,6 @@ margin-left: auto;
     line-height: 1.5;
 }
 
-.block-service h3 {
-    font-size: 20px;
-    color: rgba(46, 47, 66, 1);
-    padding-top: 120px;
-}
 
 .block-service p {
     font-size: 16px;
@@ -237,8 +234,6 @@ margin-left: auto;
 }
 
 .block-team-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
     margin-bottom: 72px;
 }
 
@@ -323,7 +318,6 @@ margin-left: auto;
 .description-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 120px;
 }
 
 .container-option {
@@ -340,12 +334,12 @@ margin-left: auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .footer-block {
     background-color: #2e2f42;
-    display: flex;
     flex-direction: column;
     align-content: flex-start;
     padding: 100px 0 100px
@@ -366,11 +360,6 @@ margin-left: auto;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.logo-footer {
-    padding-top: 100px;
-    
 }
 
 footer a {
