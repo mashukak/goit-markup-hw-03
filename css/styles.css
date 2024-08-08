@@ -23,7 +23,7 @@ main {
     display: flex;
 }
 
-.header-container {
+.container .header-container {
     align-items: center;
     justify-content: space-between;
     align-content: stretch;
