@@ -289,6 +289,9 @@ margin-left: auto;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.img {
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-role {
     line-height: 1.5;
