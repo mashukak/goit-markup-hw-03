@@ -182,7 +182,7 @@ margin-left: auto;
     gap: 24px;
 }
 .name-container {
-    padding: 32px 0 32px;
+    padding: 32px 0;
 }
 .visually-hidden {
     position: absolute;
