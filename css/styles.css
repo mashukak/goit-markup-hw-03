@@ -23,7 +23,7 @@ main {
     display: flex;
 }
 
-.container .header-container {
+.header-container {
     align-items: center;
     justify-content: space-between;
     align-content: stretch;
@@ -31,8 +31,8 @@ main {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
     padding: 0 15px;
+    display: flex;
 }
 
 .nav-menu {
@@ -77,8 +77,8 @@ main {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .nav-list li a {
@@ -92,11 +92,6 @@ main {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-.contacts-button {
-    padding-right: 332px;
-}
-
 .nav-button,
 .contacts-button {
     color: #2e2f42;
@@ -116,7 +111,9 @@ main {
 }
 
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.contacts-button:hover,
+.contacts-button:focus {
     color: #404bbf;
 }
 
@@ -124,6 +121,8 @@ main {
     list-style: none;
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .contact-list li a {
@@ -146,6 +145,8 @@ main {
     text-align: center;
     background-color: #2e2f42;
     padding-top: 188px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 496px;
 }
 
@@ -157,13 +158,14 @@ main {
     line-height: 1.5;
     cursor: pointer;
     text-align: center;
-    margin-bottom: 188px;
     height: 56px;
     min-width: 169px;
     font-weight: 500;
     display: block;
     border-radius: 4px;
     border: none;
+margin-right: auto;
+margin-left: auto;
 }
 .block-service {
     padding-top: 120px;
@@ -194,7 +196,8 @@ main {
     color: #2e2f42;
 }
 .li-list-strategy {
-    width: calc((100% - 72px) / 4);
+    margin: 0;
+    padding-left: 0;
 }
 
 .title-strategy {
@@ -251,8 +254,9 @@ main {
     letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
     border: none;
+    margin: 0;
+        padding-left: 0;
 }
 
 .foto-block {
@@ -315,10 +319,10 @@ main {
     margin-bottom: 120px;
 }
 .container-section-four {
-    row-gap: 48px;
+    row-gap: 48px 24px;
 }
 .container-option {
-    padding: 32px, 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
