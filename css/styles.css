@@ -259,13 +259,15 @@ margin-left: auto;
     gap: 24px;
     margin: 0;
     padding-left: 0;
-    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .foto-block {
     background-color: WHITE;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;}
+border-radius: 0px 0px 4px 4px;
+}
+    
 
 .team-title,
 .team-role {
