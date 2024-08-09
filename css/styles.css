@@ -189,13 +189,13 @@ margin-left: auto;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    clip: rect(0, 0, 0, 0);
-    overflow: hidden;
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
 .title-description {
     font-weight: 500;
     font-size: 20px;
@@ -206,6 +206,7 @@ margin-left: auto;
 .li-list-strategy {
     margin: 0;
     padding-left: 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .title-strategy {
@@ -262,6 +263,7 @@ margin-left: auto;
 
 .foto-block {
     background-color: WHITE;
+    width: calc((100% - 72px) / 4);
     
 }
 
@@ -340,7 +342,6 @@ margin-left: auto;
 
 .footer-block {
     background-color: #2e2f42;
-    flex-direction: column;
     align-content: flex-start;
     padding: 100px 0 100px
 }
