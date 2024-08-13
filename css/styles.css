@@ -30,8 +30,8 @@ main {
 }
 .header-container {
     align-items: center;
-    justify-content: space-between;
-    align-content: stretch;
+        justify-content: space-between;
+        align-content: stretch;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -297,6 +297,7 @@ margin-top: 48px;
 .team-title,
 .team-role {
     flex-direction: column;
+    padding-top: 8px;
 }
 .icons-adress-raw {
     width: 40px;
@@ -307,14 +308,18 @@ margin-top: 48px;
         
 }
 .social-media-icons {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    align-content: stretch;
+        justify-content: space-between;
+        align-content: stretch;
+    
 }
 .block-social-medien {
     display: flex;
     justify-content: center;
-    gap: calc((100% - 24 * 3) / 4);
+    
+    padding-bottom: 32px;
+
 }
 
 .team-title {
@@ -327,16 +332,13 @@ margin-top: 48px;
     text-align: center;
     margin-bottom: 8px;
 }
-.name-container {
-    padding: 32px 0;
-}
 
 .team-role {
     line-height: 1.5;
     font-size: 16px;
     color: rgba(67, 68, 85, 1);
     background-color: #FFFFFF;
-    padding-bottom: 32px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
