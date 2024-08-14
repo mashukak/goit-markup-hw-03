@@ -21,6 +21,9 @@ main {
 .header-class {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 .container {
     padding: 0 15px;
@@ -109,6 +112,15 @@ ul {
 .nav-button:hover,
 .nav-button:focus {
     color: #404bbf;
+}
+.nav-button-studio {
+    position: relative;
+    color: #404bbf;
+
+}
+
+.nav-button-studio::after {
+    content: ''
 }
 
 .contact-link {
