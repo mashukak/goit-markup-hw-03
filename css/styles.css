@@ -164,7 +164,7 @@ position: absolute;
 .main-page {
     text-align: center;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images2/main-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
