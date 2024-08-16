@@ -342,17 +342,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social-media-icons {
     display: flex;
     align-items: center;
-        justify-content: space-between;
-        align-content: stretch;
+    
+    align-content: stretch;
     
 }
 
 .ul-list-benefits{
     display: flex;
-        justify-content: center;
-        gap: 24px;
+    justify-content: center;
+    
 }
-
 
 .team-title {
     background-color: #FFFFFF;
@@ -383,6 +382,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.11;
     margin-bottom: 72px;
 }
+
 .block-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -398,6 +398,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
 .title-portfolio-litle {
     margin-bottom: 8px;
 }
@@ -409,6 +410,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
 }
 
 .footer-block {
