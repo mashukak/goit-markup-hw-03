@@ -413,6 +413,31 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
+.block-card {
+position: relative;
+overflow: hidden;
+}
+
+.card-benefits {
+    position: absolute;
+    top: 0;
+    background-color:rgba(77, 90, 229, 1);
+    transform: translateY(100%);
+    left: 0;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-bottom: 164px;
+    transition: transform 250ms linear;
+    color: rgba(244, 244, 253, 1);
+}
+
+.li-portfolio-list:hover .card-benefits {
+    transform: translate(0);
+}
+
 .footer-block {
     background-color: #2e2f42;
     align-content: flex-start;
