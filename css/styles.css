@@ -348,7 +348,7 @@ ul {
     justify-content: center;
 }
 
-.icons-adress-raw:hover
+.icons-adress-raw:hover,
 .icons-adress-raw:focus{
     background-color: #404bbf;  
 }
@@ -509,7 +509,6 @@ overflow: hidden;
 
 .list-benefits-footer{
     display: flex;
-    text-align: center;
     list-style: none;
     gap: 16px
 }
@@ -522,6 +521,13 @@ overflow: hidden;
     gap: 16px;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+
+
+.border-benefits-footer:hover,
+.border-benefits-footer:focus{
+    background-color: #31d0aa;
 }
 
 .benefits-footer {
