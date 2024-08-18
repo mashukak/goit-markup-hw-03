@@ -113,6 +113,7 @@ ul {
 .nav-button:focus {
     color: #404bbf;
 }
+
 .nav-button-studio:hover {
     color: #404bbf;
     position: relative;
@@ -163,7 +164,7 @@ position: absolute;
 
 .main-page {
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/BG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -195,11 +196,11 @@ position: absolute;
     font-weight: 500;
     border-radius: 4px;
     border: none;
-margin-right: auto;
-margin-left: auto;
-margin-top: 48px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-margin-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 188px;
 }
 .block-service {
     padding-top: 120px;
@@ -241,7 +242,7 @@ margin-bottom: 188px;
     align-items: center;
 }
 
-.benefits-item-icon{
+.social-media-icons{
     margin-left: 100px;
     margin-top: 24px;
     fill: rgba(244, 244, 253, 1);
@@ -350,7 +351,7 @@ margin-bottom: 188px;
     
 }
 
-.ul-list-benefits{
+.list-benefits{
     display: flex;
     justify-content: center;
     
@@ -507,6 +508,8 @@ padding-right: 692px;
 }
 .benefits-footer {
     fill: rgba(244, 244, 253, 1);
+    padding-left: 0;
+    padding-top: 2px;
 }
 
 footer a {
