@@ -233,16 +233,16 @@ ul {
     overflow: hidden;
 }
 
-.benefits-item-border {
-    width: 264px;
-    height: 112px;
-    border: 1px solid rgba(142, 143, 153, 1);
-    border-radius: 4px;  
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-    justify-content: center;
+.container-benefits{
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
 }
 
 .social-media-icons{ 
