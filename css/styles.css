@@ -510,7 +510,8 @@ overflow: hidden;
 .list-benefits-footer{
     display: flex;
     list-style: none;
-    gap: 16px
+    gap: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .border-benefits-footer {
@@ -527,7 +528,7 @@ overflow: hidden;
 
 
 .border-benefits-footer:hover,
-.border-benefits-footer:focus{
+.border-benefits-footer:focus {
     background-color: #31d0aa;
 }
 
