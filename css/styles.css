@@ -343,6 +343,14 @@ ul {
     height: 40px;
     background-color: rgba(77, 90, 229, 1);
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-adress-raw:hover
+.icons-adress-raw:focus{
+    background-color: #404bbf;  
 }
 
 .social-media-icons {
@@ -353,6 +361,7 @@ ul {
 
 .list-benefits{
     list-style: none;
+    gap: 24px;
 }
 
 .team-title {
@@ -511,6 +520,8 @@ overflow: hidden;
     height: 40px;
     width: 40px;
     gap: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .benefits-footer {
