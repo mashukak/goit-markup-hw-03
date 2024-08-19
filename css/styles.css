@@ -467,7 +467,6 @@ overflow: hidden;
     background-color: #2e2f42;
     align-content: flex-start;
     padding-top: 100px;
-    padding-left: 156px;
     padding-bottom: 100px;
 }
 
@@ -476,9 +475,7 @@ overflow: hidden;
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-   margin-right: 120px;
-    font-weight: 264px;
-    height: 72px;
+    max-width: 264px;
 }
 
 .portfolio-list h3 {
@@ -504,10 +501,6 @@ overflow: hidden;
     align-items: baseline;
 }
 
-.footer-benefits-block {
-    margin-right: 120px;
-}
-
 .list-benefits-footer{
     display: flex;
     list-style: none;
@@ -523,7 +516,6 @@ overflow: hidden;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -536,12 +528,14 @@ overflow: hidden;
     fill: rgba(244, 244, 253, 1);
     padding-left: 0;
     padding-top: 2px;
-    
+}
+
+.footer-box {
+    margin-right: 120px;
 }
 
 footer a {
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 h1,
