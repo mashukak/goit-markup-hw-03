@@ -502,7 +502,6 @@ overflow: hidden;
 .footer-block-items{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-benefits-block{
