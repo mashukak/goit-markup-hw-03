@@ -502,11 +502,10 @@ overflow: hidden;
 .footer-block-items{
     display: flex;
     align-items: baseline;
-    
 }
 
 .footer-benefits-block {
-    margin-right: 120px;
+    margin-right: 0 120px 0 0;
 }
 
 .list-benefits-footer{
