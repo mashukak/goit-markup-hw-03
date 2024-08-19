@@ -476,7 +476,7 @@ overflow: hidden;
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-right: 120px;
+   margin-right: 120px;
     font-weight: 264px;
     height: 72px;
 }
@@ -505,7 +505,7 @@ overflow: hidden;
 }
 
 .footer-benefits-block {
-    margin: 0 120px 0 0;
+    margin-right: 120px;
 }
 
 .list-benefits-footer{
