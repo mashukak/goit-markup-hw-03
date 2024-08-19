@@ -167,7 +167,6 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: 250ms cubic-bezier(rgba(0.4, 0, 0.2, 1));
     max-width: 1440px;
     height: 100%;
 }
@@ -526,14 +525,13 @@ overflow: hidden;
     justify-content: center;
     display: flex;
     height: 100%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .border-benefits-footer:hover,
 .border-benefits-footer:focus {
     background-color: #31d0aa;
-}
+} 
 
 .benefits-footer {
     fill: rgba(244, 244, 253, 1);
