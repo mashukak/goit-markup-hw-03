@@ -33,8 +33,8 @@ main {
 }
 .header-container {
     align-items: center;
-        justify-content: space-between;
-        align-content: stretch;
+    justify-content: space-between;
+    align-content: stretch;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -169,6 +169,7 @@ ul {
     background-size: cover;
     max-width: 1440px;
     height: 100%;
+    margin: auto;
 }
 
 .main-title {
@@ -426,8 +427,8 @@ ul {
 }
 
 .block-card {
-position: relative;
-overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .card-benefits {
@@ -530,9 +531,15 @@ overflow: hidden;
     padding-top: 2px;
 }
 
+.footer-benefits-block {
+    margin-right: 80PX ;
+}
+
 .footer-box {
     margin-right: 120px;
 }
+
+
 
 footer a {
     display: inline-block;
